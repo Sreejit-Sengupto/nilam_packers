@@ -30,7 +30,7 @@ const TextReveal = () => {
   ];
   return (
     <div className="flex flex-col items-center justify-center">
-      <TypewriterEffectSmooth words={words} className="text-xl"/>
+      <TypewriterEffectSmooth words={words} className="text-xl" />
     </div>
   );
 };

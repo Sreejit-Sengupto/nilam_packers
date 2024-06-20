@@ -35,7 +35,7 @@ body {
 :root {
   /* Your default theme */
   --background: white;
-  --foreground: black;
+  --foreground: #010104;
 }
 
 [data-theme="dark"] {
