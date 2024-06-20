@@ -12,7 +12,18 @@ const config: Config = {
   ],
   darkMode: "class",
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'background': '#010104',
+        'primary': '#3a31d8',
+        'secondary': '#020024',
+        'accent': '#0600c2',
+        'text': '#ebe9fc'
+      },
+      boxShadow: {
+        'btn': '0 35px 60px -15px rgba(0, 0, 0, 0.3)',
+      }
+    },
   },
   plugins: [addVariablesForColors],
 };
