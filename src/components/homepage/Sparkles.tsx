@@ -5,7 +5,7 @@ import { SparklesCore } from "@/components/ui/sparkles";
 const Sparkles = () => {
   return (
     <>
-      <h1 className="md:text-7xl text-3xl lg:text-9xl font-bold text-center text-white relative z-20">
+      <h1 className="md:text-7xl text-5xl lg:text-9xl font-bold text-center text-white relative z-20">
         <span className="mr-1 lg:mr-5 text-primary">Nilam</span>
         <span>Packers</span>
         <TextReveal />

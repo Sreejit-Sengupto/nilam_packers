@@ -63,7 +63,7 @@ export function HeroScroll() {
         className="w-[80%] mx-auto text-center text-base font-normal lg:mt-[-8rem] mb-8"
       />
 
-      <div className="bg-secondary p-5 text-gray-400 w-[60%] mx-auto flex flex-col justify-center items-center rounded-3xl">
+      <div className="w-[80%]  bg-secondary p-5 text-gray-400 lg:w-[60%] mx-auto flex flex-col justify-center items-center rounded-3xl border">
         <p className="text-lg">
           We are Established in 2018, One Stop Solution for Corrugated Packaging
           Boxes and now proudly became one of the Best Corrugated Box

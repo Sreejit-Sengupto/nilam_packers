@@ -8,17 +8,17 @@ export default function ContactUs() {
         Get in Touch with Us
       </h1>
 
-      <div className="flex justify-center items-center">
-        <div className="mx-5">
+      <div className="flex flex-col lg:flex-row justify-center items-center">
+        <div className="mb-5 lg:mb-0 mx-5">
           <ContactInfo />
         </div>
 
-        <div>
+        <div className="w-[90%] lg:w-auto">
           <ContactForm />
         </div>
       </div>
 
-      <div className="bg-secondary-card p-8 my-10 text-text max-w-3xl mx-auto text-base rounded-xl">
+      <div className="bg-secondary-card p-8 my-10 text-text w-[90%] lg:max-w-3xl mx-auto text-base rounded-xl border">
         KANI Packaging, Bhiwandi Based - Corrugated Box Manufacturers in
         Bhiwandi, Thane. One Stop Solutions for all types of Corrugated Boxes,
         Shipping Boxes, Cardboard Boxes, Carton Boxes, etc. Contact us for
