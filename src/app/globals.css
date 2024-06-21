@@ -51,3 +51,7 @@ body {
   /* border-radius: 10px; */
   border: 1px solid rgba(255, 255, 255, 0.18);
 }
+
+.container::-webkit-scrollbar { 
+  display: none;  /* Safari and Chrome */
+}
